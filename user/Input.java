@@ -10,9 +10,10 @@ public class Input {
 	   gs.setUsername(sc.next());
 	   System.out.println("Enter password");
 	   gs.setPassword(sc.next());
+	   sc.close();
 	}
 	void returnoutput()
-	{
+	{ 
 		System.out.println("Username: "+gs.getUsername()+"\nPassword: "+gs.getPassword());
 	}
 }
